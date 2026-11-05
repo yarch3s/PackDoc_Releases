@@ -1,2 +1,38 @@
-# PackDoc_Releases
-PackDoc: отгрузочный комплект NEWAY. Установщик.
+# PackDoc
+
+Программа отдела логистики NORREXIM DMCC. По Excel-файлу завода NEWAY (листы Invoice и Packing list)
+и спецификации формирует отгрузочный комплект: инвойсы, Packing list, Component List,
+грузовые маркировки и черновик сертификата происхождения (DRAFT COO).
+
+## Скачать
+
+**[Скачать установщик PackDoc_Setup.exe](https://github.com/yarch3s/PackDoc_Releases/releases/latest/download/PackDoc_Setup.exe)** (последняя версия)
+
+Инструкция: [PackDoc_Instrukciya.pdf](https://github.com/yarch3s/PackDoc_Releases/releases/latest/download/PackDoc_Instrukciya.pdf). Она же ставится вместе с программой:
+меню «Пуск» → «Инструкция PackDoc».
+
+Все версии и контрольные суммы SHA256: [страница выпусков](https://github.com/yarch3s/PackDoc_Releases/releases).
+
+## Требования
+
+- Windows 10 или 11, 64-бит.
+- Права администратора не нужны: программа ставится в папку пользователя
+  `%LOCALAPPDATA%\Programs\PackDoc`.
+- Microsoft Edge WebView2 Runtime. В Windows 10 и 11 он обычно уже есть; если нет, установщик
+  подскажет ссылку на сайт Microsoft.
+
+## Установка и обновление
+
+1. Скачайте `PackDoc_Setup.exe` и запустите.
+2. Если Windows покажет окно «Windows защитила ваш компьютер» (SmartScreen), нажмите
+   «Подробнее» → «Выполнить в любом случае».
+3. Обновление: скачайте установщик по той же ссылке и запустите. Новая версия встанет поверх старой,
+   открытую программу установщик закроет сам.
+
+## Данные
+
+Программа работает только на вашем компьютере и ничего не отправляет в интернет.
+База спецификаций и настройки хранятся в `%APPDATA%\PackDoc` и при удалении программы сохраняются.
+
+---
+© NORREXIM DMCC
