@@ -1,6 +1,6 @@
 # PackDoc
 
-Программа отдела логистики NORREXIM DMCC. По Excel-файлу завода NEWAY (листы Invoice и Packing list)
+Программа отдела логистики NORREXIM DMCC. По Excel-файлу завода-изготовителя (листы Invoice и Packing list)
 и спецификации формирует отгрузочный комплект: инвойсы, Packing list, Component List,
 грузовые маркировки и черновик сертификата происхождения (DRAFT COO).
 
