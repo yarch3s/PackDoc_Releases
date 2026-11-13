@@ -1,0 +1,22 @@
+# ocrkit: обязательные зависимости (проверено на Python 3.12, Windows 11)
+pymupdf>=1.24
+numpy>=1.26
+onnxruntime>=1.17
+
+# необязательно: движок windows (встроенное распознавание Windows 10/11)
+# winrt-runtime
+# winrt-Windows.Media.Ocr
+# winrt-Windows.Globalization
+# winrt-Windows.Graphics.Imaging
+# winrt-Windows.Storage.Streams
+# winrt-Windows.Foundation
+# winrt-Windows.Foundation.Collections
+
+# необязательно: движок tesseract (в колесе есть библиотека Tesseract 5; нужен ещё eng.traineddata)
+# tesserocr
+
+# необязательно: замер памяти в tools/ocr_bench.py
+# psutil
+
+# необязательно: графики tools/ocr_charts.py
+# matplotlib
