@@ -1,15 +1,15 @@
 # PackDoc
 
-Программа отдела логистики NORREXIM DMCC. По Excel-файлу завода-изготовителя (листы Invoice и Packing list)
-и спецификации формирует отгрузочный комплект: инвойсы, Packing list, Component List,
-грузовые маркировки и черновик сертификата происхождения (DRAFT COO).
+Программа отдела логистики NORREXIM DMCC. По Excel-файлам заводов-изготовителей и спецификации формирует
+отгрузочный комплект: инвойсы, Packing list, Component List, грузовые маркировки и черновик сертификата
+происхождения (DRAFT COO).
 
 ## Скачать
 
 **[Скачать установщик PackDoc_Setup.exe](https://github.com/yarch3s/PackDoc_Releases/releases/latest/download/PackDoc_Setup.exe)** (последняя версия)
 
-Инструкция: [PackDoc_Instrukciya.pdf](https://github.com/yarch3s/PackDoc_Releases/releases/latest/download/PackDoc_Instrukciya.pdf). Она же ставится вместе с программой:
-меню «Пуск» → «Инструкция PackDoc».
+Инструкция ставится вместе с программой: меню «Пуск» → «Инструкция PackDoc», в самой программе
+кнопка «Инструкция».
 
 Все версии и контрольные суммы SHA256: [страница выпусков](https://github.com/yarch3s/PackDoc_Releases/releases).
 
@@ -44,6 +44,16 @@
 В интернет она обращается только за одним: проверить на этой странице GitHub, не вышла ли новая версия,
 и скачать её установщик. Без интернета программа работает как обычно.
 База спецификаций и настройки хранятся в `%APPDATA%\PackDoc` и при удалении программы сохраняются.
+
+## Распознавание сканов: методы и исходный код
+
+Программа читает сканы сертификатов качества на вашем компьютере, без интернета.
+
+- Какие способы распознавания сравнивались, как их мерили, графики и примеры на выдуманных документах:
+  [recognition/README.md](recognition/README.md).
+- Исходный код инструмента распознавания (лицензия GNU AGPL-3.0): папка
+  [recognition/source](recognition/source) и архив **[PackDoc_Recognition_Source.zip](https://github.com/yarch3s/PackDoc_Releases/releases/latest/download/PackDoc_Recognition_Source.zip)**
+  (всё одним файлом, вместе с моделями).
 
 ---
 © NORREXIM DMCC
