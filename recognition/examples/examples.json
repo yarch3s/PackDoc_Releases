@@ -1,0 +1,111 @@
+{
+ "codes": [
+  "EXF0041207",
+  "EXF0041215",
+  "EXF0041388",
+  "EXT0090166",
+  "EXT0090174",
+  "EXB0100652",
+  "EXB0100660",
+  "EXR0207731",
+  "H7204518",
+  "H7204631",
+  "K5510827",
+  "K5510902",
+  "M3308145",
+  "EX-QC-250731",
+  "PO-EX-004512",
+  "EXS-0907-R2"
+ ],
+ "examples": [
+  {
+   "name": "01_clean",
+   "title": "Чистый скан",
+   "seconds": 1.9,
+   "lines": 113,
+   "rotation": 0,
+   "skew": 0.02,
+   "codes_expected": 16,
+   "codes_exact": 16,
+   "codes_fixed": [],
+   "codes_lost": [],
+   "picture_bytes": 63412,
+   "clip": null
+  },
+  {
+   "name": "02_stamp",
+   "title": "Цветные печати поверх текста",
+   "seconds": 2.03,
+   "lines": 117,
+   "rotation": 0,
+   "skew": 0.03,
+   "codes_expected": 16,
+   "codes_exact": 16,
+   "codes_fixed": [],
+   "codes_lost": [],
+   "picture_bytes": 70005,
+   "clip": null
+  },
+  {
+   "name": "03_sideways",
+   "title": "Страница лежит боком",
+   "seconds": 2.89,
+   "lines": 113,
+   "rotation": 270,
+   "skew": 0.01,
+   "codes_expected": 16,
+   "codes_exact": 16,
+   "codes_fixed": [],
+   "codes_lost": [],
+   "picture_bytes": 65639,
+   "clip": null
+  },
+  {
+   "name": "04_skew",
+   "title": "Наклон 1.5 градуса",
+   "seconds": 3.34,
+   "lines": 113,
+   "rotation": 0,
+   "skew": 1.5,
+   "codes_expected": 16,
+   "codes_exact": 16,
+   "codes_fixed": [],
+   "codes_lost": [],
+   "picture_bytes": 64784,
+   "clip": null
+  },
+  {
+   "name": "05_pale_jpeg",
+   "title": "Бледный скан с сильным сжатием",
+   "seconds": 1.96,
+   "lines": 113,
+   "rotation": 0,
+   "skew": 0.01,
+   "codes_expected": 16,
+   "codes_exact": 16,
+   "codes_fixed": [],
+   "codes_lost": [],
+   "picture_bytes": 47626,
+   "clip": null
+  },
+  {
+   "name": "06_band",
+   "title": "Только полоса бланка (часть страницы)",
+   "seconds": 1.09,
+   "lines": 67,
+   "rotation": 0,
+   "skew": 0.0,
+   "codes_expected": 13,
+   "codes_exact": 13,
+   "codes_fixed": [],
+   "codes_lost": [],
+   "picture_bytes": 56787,
+   "clip": [
+    0.0,
+    0.17,
+    1.0,
+    0.5
+   ]
+  }
+ ]
+}
